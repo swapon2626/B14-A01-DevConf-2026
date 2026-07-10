@@ -98,3 +98,18 @@ nav{
     color: white;
     cursor: pointer;
 }
+
+
+/* speaker-section */
+
+.speacker-section{
+    max-width: 1200px;
+    margin: 80px auto;
+}
+
+.speacker-section h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+
+}
