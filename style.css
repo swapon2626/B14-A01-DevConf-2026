@@ -123,7 +123,7 @@ nav ul li a:hover{
 .speaker-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -132,7 +132,19 @@ nav ul li a:hover{
     border: 1px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
 }
+
+/* AI help to make hover effect start*/
+
+.speaker-card:hover{
+    transform: translateY;-(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    border-color: blueviolet;
+}
+
+/* AI help to make hover effect end*/
 
 .speaker-card img{
     width: 100%;
