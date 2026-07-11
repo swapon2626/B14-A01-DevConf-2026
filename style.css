@@ -1,3 +1,4 @@
+/* nav setion start */
 * {
     padding: 0;
     margin: 0;
@@ -32,7 +33,7 @@ nav ul {
     align-items: center;
 }
 
-nav ui li a{
+nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 16px;
@@ -51,12 +52,10 @@ nav ul li a{
     font-weight: 500;
 }
 
-nav{
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px 80px;
-}
 
+/* nav setion end */
+
+/* hero section start */
 
 .hero-parent{
     position: relative;
@@ -66,6 +65,19 @@ nav{
     width: 100%;
     display: block;
 }
+
+/* overlay section start */
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.45);
+}
+
+/* overlay section end */
 
 .hero-content{
     position: absolute;
@@ -84,9 +96,10 @@ nav{
 }
 
 .hero-content p{
-    font-size: 13px;
+    width: 550px;
+    font-size: 15px;
     line-height: 20px;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 .hero-content button{
@@ -99,25 +112,21 @@ nav{
     cursor: pointer;
 }
 
+/* hero section end */
 
 /* speaker-section */
-
-.speacker-section{
-    max-width: 1200px;
-    margin: 80px auto;
-}
-
-.speacker-section h2{
-    text-align: center;
-    font-size: 45px;
-    margin-bottom: 40px;
-
-}
 
 .speaker-section{
     max-width: 1200px;
     margin: 80px auto;
 }
+
+.speaker-section h2{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 40px;
+}
+
 
 .speaker-section h2{
     text-align: center;
@@ -232,10 +241,6 @@ nav{
 .pricing-card button{
     width: 100%;
 
-}
-
-.pricing-card button{
-    width: 100%;
 }
 
 .pricing-card:first-child .common-button{
