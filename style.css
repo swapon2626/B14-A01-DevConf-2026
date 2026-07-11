@@ -45,6 +45,7 @@ nav ul li a:hover{
 
 }
 
+
 nav ul li a{
     text-decoration: none;
     color: #3f3c3c;
@@ -74,7 +75,7 @@ nav ul li a{
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0,0,0,0.45);
+    background: rgba(0,0,0,0.70);
 }
 
 /* overlay section end */
@@ -331,3 +332,75 @@ nav ul li a{
 
 /* placeholder section end */
 
+/* footer section start */
+
+.footer{
+    background-color: #101a30;
+    padding: 50px 0;
+    width: 100%;
+}
+
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #2b3648;
+}
+
+.footer-top img{
+    width: 120px;
+}
+
+.footer-icons{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-icons i{
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-icons i:hover{
+    color: #2563eb;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+}
+
+.footer-bottom p{
+    color: #9ca3af;
+    font-size: 15px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    color: #9ca3af;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: #ffffff;
+}
+
+/* footer section end */
